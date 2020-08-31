@@ -14,11 +14,28 @@ Based on various market surveys, the consulting firm has gathered a large datase
 
 You are required to model the price of cars with the available independent variables. It will be used by the management to understand how exactly the prices vary with the independent variables. They can accordingly manipulate the design of the cars, the business strategy etc. to meet certain price levels. Further, the model will be a good way for management to understand the pricing dynamics of a new market. 
 
- ### Data Preparation
+### Data Understanding
 
-There is a variable named CarName which is comprised of two parts - the first word is the name of 'car company' and the second is the 'car model'. For example, chevrolet impala has 'chevrolet' as the car company name and 'impala' as the car model name. You need to consider only company name as the independent variable for model building. 
+The source data given contains the information about different types of cars across the American market. 
+
+## Analysis 
+
+#### 1. Importing and Understanding Data
+ - Imported the dataset
+ - Shape and Type of columns in dataset
+ - Statistical Information about dataset
+#### 2. Data Cleaning and Preparation using Exploratory Data Analysis (EDA)
+ - Derived new columns CompanyName and Power to Weight Ratio
+ - No missing values and duplicate values in dataset
+ - Dropped Car ID column as it will not be useful in our further analysis
+ - Standardized all String column values by converting them to Uppercase
+ - Converted Categorical variables to numeric variables to support Linear Regression Analysis
+ - Rescaled the variables by applying normalize function
+ - Corrected Spelling mistakes in Car Name column
+ - Univariate and Bivariate Analysis by plotting graphs
+ #### 3. Splitting data into training and testing sets
+ #### 4. Linear Regression using Recursive Feature Elimination
+ #### 5. BootStrap Technique used to resample and create a large dataset for Model prediction
  
-### Model Evaluation:
-
-When you're done with model building and residual analysis, and have made predictions on the test set, just make sure you use the following two lines of code to calculate the R-squared score on the test set.
+ ## Conclusion
  
