@@ -37,5 +37,3 @@ The source data given contains the information about different types of cars acr
  #### 4. Linear Regression using Recursive Feature Elimination
  #### 5. BootStrap Technique used to resample and create a large dataset for Model prediction
  
- ## Conclusion
- 
